@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:jms="http://www.springframework.org/schema/jms" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms-4.3.xsd">
+
+		
+<bean id="jmsConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean">
+	<property name="jndiName" value="jms/stpjmsConnectionFactory"/>
+</bean>		
+
+<bean id="topicConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean">
+	<property name="jndiName" value="jms/stptopicConnectionFactory"/>
+</bean>
+
+<bean id="subscriberOne" class="com.pamu.jms.subscribe.SubscriberOne"/>
+
+<bean id="subscriberTwo" class="com.pamu.jms.subscribe.SubscriberTwo"/>
+
+<bean id="jmsContainer1" class="org.springframework.jms.listener.DefaultMessageListenerContainer" scope="prototype" destroy-method="stop">
+	<property name="connectionFactory" ref="topicConnectionFactory" />
+	<property name="destinationName" value="updatestatus" />
+	<property name="cacheLevelName" value="CACHE_CONSUMER" />
+	<property name="messageListener" ref="myMessageAdapterOne" />
+	<property name="pubSubDomain" value="true" />
+</bean>
+
+<!-- <bean id="jmsContainer2" class="org.springframework.jms.listener.DefaultMessageListenerContainer" scope="prototype" destroy-method="stop">
+		<property name="connectionFactory" ref="topicConnectionFactory" />
+		<property name="destinationName" value="updatestatus" />
+		<property name="cacheLevelName" value="CACHE_CONSUMER" />
+		<property name="messageListener" ref="myMessageAdapterTwo" />
+		<property name="pubSubDomain" value="true" />
+</bean> -->
+<bean id="myMessageAdapterOne" class="org.springframework.jms.listener.adapter.MessageListenerAdapter">
+    <property name="delegate" ref="subscriberOne" />
+    <property name="defaultListenerMethod" value="processMessage" />
+</bean>
+
+<bean id="myMessageAdapterTwo" class="org.springframework.jms.listener.adapter.MessageListenerAdapter">
+    <property name="delegate" ref="subscriberTwo" />
+    <property name="defaultListenerMethod" value="processMessage" />
+</bean>
+</beans>
