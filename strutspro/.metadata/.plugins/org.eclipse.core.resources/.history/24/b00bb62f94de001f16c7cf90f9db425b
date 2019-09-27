@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE struts-config SYSTEM "struts-config_1_2.dtd" >-->
+ <!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+       "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<struts-config>
+<form-beans>
+ <form-bean name="loginform" type="LoginActionForm"/>
+ </form-beans>
+ <action-mapping>
+ <action path="/login.jsp" type="LoginAction" name="loginform">
+  <forward name="home" path="/home.jsp"/>
+  <forward name="error" path="/login.jsp"/>
+  </action>
+  </action-mapping>
+ </struts-config>

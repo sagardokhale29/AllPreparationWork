@@ -1,0 +1,42 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+
+public class getbookrecord1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@pearl:1521:Oracle10g","java","java" );
+			PreparedStatement pstmt=con.prepareStatement("insert into book (?,?,?,?)");
+			pstmt.setInt(1,Integer.parseInt(args[0]));
+			pstmt.setString(2,args[1]);
+			pstmt.setString(3,args[2]);
+			pstmt.setDouble(4,Double.parseDouble(args[3]));
+			int UpdateCnt=pstmt.executeUpdate();
+			if(UpdateCnt>0)
+				System.out.println("New Book Record Inserted Sucessfully");
+			else
+				System.out.println("record not Inserted");
+				
+			con.close();
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}

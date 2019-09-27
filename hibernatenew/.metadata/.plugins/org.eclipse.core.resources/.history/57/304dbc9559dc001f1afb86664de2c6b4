@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+
+public class MovieApp {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Configuration cfg=new Configuration();
+		Configuration c=cfg.configure();
+		SessionFactory f=c.buildSessionFactory();
+		Session session=f.openSession();
+		Transaction tr=session.beginTransaction();
+		Movie m=new Movie();
+		m.setMovieId(191);
+		m.setName("dabang");
+		List s=new ArrayList();
+		s.add(new Song(11,"munni"));
+		s.add(new Song(12,"dabangi"));
+		
+		s.add(new Song(13,"tere nain"));
+		m.setSongs(s);
+		session.save(m);
+		tr.commit();
+		
+		
+		
+		
+		
+
+	}
+
+}

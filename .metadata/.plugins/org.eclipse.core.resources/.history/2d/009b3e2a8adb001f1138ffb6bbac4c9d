@@ -1,0 +1,25 @@
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.classic.Session;
+
+
+public class DeleteRecord {
+	public static void main(String[] args) {
+		Configuration cfg=new Configuration();
+		Configuration c=cfg.configure();
+		SessionFactory f=c.buildSessionFactory();
+		Session session=f.openSession();
+		Transaction tr=session.beginTransaction();
+		Book b=(Book) session.get(Book.class, new Integer(8789));
+		if(b!=null)
+		{
+			session.delete(b);
+			System.out.println("record deleted....");
+			tr.commit();
+			session.flush();
+			
+		}
+	}
+
+}

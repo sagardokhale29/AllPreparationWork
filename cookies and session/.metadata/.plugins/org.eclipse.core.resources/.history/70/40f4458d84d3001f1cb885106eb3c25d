@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+<wb-module deploy-name="dynamicprooncookies">
+<property name="context-root" value="dynamicprooncookies"/>
+</wb-module>
+</project-modules>

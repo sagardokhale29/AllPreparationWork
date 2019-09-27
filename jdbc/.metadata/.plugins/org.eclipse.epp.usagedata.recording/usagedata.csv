@@ -1,0 +1,44 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools",1286363362256
+executed,command,org.eclipse.jdt.debug.ui,3.4.1.v20090811_r351,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1286363370880
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363396770
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363408176
+activated,editor,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1286363488220
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363495032
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363503516
+error,log,,,"Unexpected runtime error while computing a text hover",1286363549436
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363562170
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363578404
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363593247
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363601247
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363621605
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363638245
+error,log,,,"Unexpected runtime error while computing a text hover",1286363652362
+error,log,,,"Unexpected runtime error while computing a text hover",1286363654781
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363686348
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363703755
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1286363711482
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363711685
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363713746
+activated,editor,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1286363725111
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363749184
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363755210
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363759566
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363774834
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1286363779549
+activated,editor,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1286363787354
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1286363797221
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363799453
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363802591
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1286363815299
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363837155
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363839075
+closed,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286363839387
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.102.v200805140135,"org.eclipse.jst.j2ee.xdoclet.runtime",1286363840152
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.0.v200805140020,"org.eclipse.jst.j2ee.ejb.annotations.xdoclet",1286363840152
+stopped,bundle,org.eclipse.jst.server.generic.jboss,1.6.1.v200904151730,"org.eclipse.jst.server.generic.jboss",1286363840168
+stopped,bundle,org.eclipse.jst.server.generic.jonas,1.5.205.v200805140145,"org.eclipse.jst.server.generic.jonas",1286363840184
+stopped,bundle,org.eclipse.jst.server.generic.oc4j,1.5.206.v20090812,"org.eclipse.jst.server.generic.oc4j",1286363840199
+stopped,bundle,org.eclipse.jst.server.websphere.core,1.0.302.v20080620,"org.eclipse.jst.server.websphere.core",1286363840215
+stopped,bundle,org.eclipse.jst.server.generic.ui,1.0.405.v200905022002,"org.eclipse.jst.server.generic.ui",1286363840215
+stopped,bundle,org.eclipse.jst.server.generic.core,1.0.506.v20090817,"org.eclipse.jst.server.generic.core",1286363840496

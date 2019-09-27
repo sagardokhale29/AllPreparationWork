@@ -1,0 +1,21 @@
+import org.apache.struts.action.ActionForm;
+
+
+public class LoginAction extends ActionForm {
+	private String usernm;
+	private String passwd;
+	public String getUsernm() {
+		return usernm;
+	}
+	public void setUsernm(String usernm) {
+		this.usernm = usernm;
+	}
+	public String getPasswd() {
+		return passwd;
+	}
+	public void setPasswd(String passwd) {
+		this.passwd = passwd;
+	}
+	
+
+}

@@ -1,0 +1,6 @@
+import org.apache.struts.action.ActionForm;
+
+
+public class LoginActionForm extends ActionForm {
+
+}

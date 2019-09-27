@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="Movie" table="moviemaster_sb">
+ <id name="movieId" type="int" column="movieid">
+ <generator class="assigned"/>
+ </id>
+ <property name="name"/>
+ <map name="persons" table="moviepersonmaster_sb" cascade="all">
+ <key column="movieId"/>
+ <index column="Role" type="string"/>
+ <element column="name" type="string"/>
+ </map>
+ </class>
+
+</hibernate-mapping>

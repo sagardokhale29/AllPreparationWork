@@ -1,0 +1,28 @@
+import java.awt.List;
+
+
+public class Movie {
+	private int movieId;
+	private String name;
+	List songs;
+	public int getMovieId() {
+		return movieId;
+	}
+	public void setMovieId(int movieId) {
+		this.movieId = movieId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List getSongs() {
+		return songs;
+	}
+	public void setSongs(List songs) {
+		this.songs = songs;
+	}
+	
+
+}

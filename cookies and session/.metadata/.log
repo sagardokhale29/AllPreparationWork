@@ -1,0 +1,30 @@
+!SESSION 2010-10-09 14:35:15.649 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0-beta2
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\sba -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2010-10-09 14:36:06.889
+!MESSAGE NLS unused message: contextRootLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage
+
+!ENTRY org.eclipse.osgi 2 1 2010-10-09 14:36:06.904
+!MESSAGE NLS unused message: contentDirLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage
+
+!ENTRY org.eclipse.jdt.core 2 0 2010-10-09 14:37:03.590
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.5.0/jre/lib/ext/sunjce_provider.jar|com/sun/crypto/provider/SunJCE_am.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2010-10-09 15:28:43.038
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.5.0/jre/lib/ext/sunjce_provider.jar|com/sun/crypto/provider/SunJCE_am.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-10-09 16:00:52.942
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-10-09 16:00:52.942
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@1eeb165),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1f9eba0,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@10564f7)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e94001)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@1eeb165),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1f9eba0,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@10564f7)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e94001)),sourcePriority=1064961)

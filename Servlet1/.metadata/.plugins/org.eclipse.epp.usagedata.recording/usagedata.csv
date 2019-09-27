@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.wst.xml.ui,1.1.2.v201001222130,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1286360995628
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1286361244150
+activated,editor,org.eclipse.ui.browser,3.2.301.v20091215_35x,"org.eclipse.ui.browser.editor",1286361260602
+activated,editor,org.eclipse.wst.xml.ui,1.1.2.v201001222130,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1286361262602
+activated,editor,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1286361265758
+activated,editor,org.eclipse.ui.browser,3.2.301.v20091215_35x,"org.eclipse.ui.browser.editor",1286361277086
+activated,editor,org.eclipse.wst.xml.ui,1.1.2.v201001222130,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1286361278679
+activated,editor,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1286361279820
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286361289507
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286361292335
+closed,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1286361293070
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.102.v200805140135,"org.eclipse.jst.j2ee.xdoclet.runtime",1286361296241

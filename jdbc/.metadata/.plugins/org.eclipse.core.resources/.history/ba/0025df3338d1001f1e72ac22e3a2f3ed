@@ -1,0 +1,33 @@
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+public class CallProcedure1
+{
+	public static void main(String[] args) {
+	try {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Connection con=DriverManager.getConnection("jdbc:oracle:thin:@pearl:1521:Oracle10g","java","java");
+		CallableStatement cstmt=con.prepareCall("{select bookid,price from book;}");
+		
+		cstmt.setInt(1,Integer.parseInt(args[0]));		
+		cstmt.setDouble(2,Double.parseDouble(args[1]));
+		cstmt.execute();
+		
+			System.out.println("PL/SQL procedure is executed Sucessfully");
+		
+		con.close();
+	} catch (NumberFormatException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}}
+
+}

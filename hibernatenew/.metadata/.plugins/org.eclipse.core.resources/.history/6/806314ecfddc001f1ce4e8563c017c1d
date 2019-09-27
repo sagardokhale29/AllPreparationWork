@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.seed.emp">
+<class name="Employee" table="EMPLOYEEMASTER_sbd" >
+<id name="empId" type="int" column="EMPID">
+<generator class="assigned">
+</generator>
+</id>
+<property name="name" column="NAME"/>
+<union-subclass name="WageEmployee" table="WEmpSB">
+<property name="Hours"/>
+<property name="Rate"/>
+</union-subclass>
+<union-subclass name="SalesPerson" table="SEmpSB">
+<property name="Sales"/>
+<property name="Commisions"/>
+</union-subclass>
+ 
+</class>
+ 
+
+
+</hibernate-mapping>

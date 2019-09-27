@@ -1,0 +1,146 @@
+!SESSION 2010-10-23 14:19:58.898 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0-beta2
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\sagar\strutspro -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2010-10-23 14:20:36.596
+!MESSAGE NLS unused message: contextRootLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage
+
+!ENTRY org.eclipse.osgi 2 1 2010-10-23 14:20:36.596
+!MESSAGE NLS unused message: contentDirLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage
+
+!ENTRY org.eclipse.jdt.core 2 0 2010-10-23 14:21:30.648
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.5.0/jre/lib/ext/sunjce_provider.jar|com/sun/crypto/provider/SunJCE_am.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!SESSION 2010-10-23 15:22:49.611 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0-beta2
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:\sagar\strutspro -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2010-10-23 15:23:04.892
+!MESSAGE Error reading context file
+!STACK 0
+org.xml.sax.SAXException: Can't create default XMLReader; is system property org.xml.sax.driver set?
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(XMLReaderFactory.java:155)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.readRepositoriesFromXML(TaskRepositoriesExternalizer.java:115)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.loadRepositories(TaskRepositoryManager.java:288)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.readRepositories(TaskRepositoryManager.java:264)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.load(RepositoryExternalizationParticipant.java:69)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.performLoad(AbstractExternalizationParticipant.java:83)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:73)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$1.run(ExternalizationManager.java:118)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager.load(ExternalizationManager.java:107)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager.load(ExternalizationManager.java:85)
+	at org.eclipse.mylyn.internal.tasks.ui.TasksUiPlugin.initializeDataSources(TasksUiPlugin.java:786)
+	at org.eclipse.mylyn.internal.tasks.ui.TasksUiPlugin.start(TasksUiPlugin.java:576)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:236)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2010-10-23 16:00:13.232
+!MESSAGE An internal error occurred during: "Caching Remote Resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.internet.cache.internal.CacheJob.run(CacheJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2010-10-23 16:00:37.684 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0-beta2
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2010-10-23 16:00:51.325
+!MESSAGE Error reading context file
+!STACK 0
+org.xml.sax.SAXException: Can't create default XMLReader; is system property org.xml.sax.driver set?
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(XMLReaderFactory.java:155)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.readRepositoriesFromXML(TaskRepositoriesExternalizer.java:115)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.loadRepositories(TaskRepositoryManager.java:288)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.readRepositories(TaskRepositoryManager.java:264)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.load(RepositoryExternalizationParticipant.java:69)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.performLoad(AbstractExternalizationParticipant.java:83)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:73)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$1.run(ExternalizationManager.java:118)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager.load(ExternalizationManager.java:107)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager.load(ExternalizationManager.java:85)
+	at org.eclipse.mylyn.internal.tasks.ui.TasksUiPlugin.initializeDataSources(TasksUiPlugin.java:786)
+	at org.eclipse.mylyn.internal.tasks.ui.TasksUiPlugin.start(TasksUiPlugin.java:576)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:236)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-10-23 16:17:05.681
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-10-23 16:17:05.681
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@14a99dc),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@adddd6,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1233bdc)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@626fd2)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@14a99dc),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@adddd6,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1233bdc)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@626fd2)),sourcePriority=1064961)

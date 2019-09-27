@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="Movie" table="Moviemaster_sb">
+ <id name="movieId" type="int" column="Movie id">
+ <generator class="assigned"/>
+ </id>
+ <property name="name"/>
+ <list name="songs" cascade="all">
+ <key column="Movieid"/>
+ <index column="SONGINDEX"/>
+ </list>
+ </class>
+ <class name="Song" table="Songmaster">
+ <id name="songId" type="int" column="SONGID">
+ <generator class="assigned">
+ </generator>
+ </id>
+ <property name="lyrics"/>
+ </class>
+
+
+</hibernate-mapping>
