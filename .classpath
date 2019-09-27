@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90AMS"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90BASE"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90CBASE"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90CSAMP"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90CZ75"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90DE29"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90DE39"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90EN09"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90EN24"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90EN38"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90EN84"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90ES31"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FAGNT"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FBASE"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FR28"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FR40"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FR66"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FR81"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FSVCS"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90FTOOL"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90HU76"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90IT32"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90IT42"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90JA30"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90JA62"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90JBASE"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90JSAMP"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90KO86"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90PL78"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90PT80"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90RU79"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90SAMP"/>
+	<classpathentry kind="lib" path="C:/Users/sagar.dokhale/Downloads/MQ_V9.0_TRIAL_FOR_IBMI_IMG/server/MQ90ZH89"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
