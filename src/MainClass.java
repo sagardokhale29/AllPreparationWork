@@ -3,13 +3,10 @@ import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Queue;
 import java.util.WeakHashMap;
 
 public class MainClass {
@@ -37,12 +34,16 @@ public class MainClass {
         String str1=new String("sagar");
         
         HashMap<Employee,Integer> empMap=new HashMap<>();
+       
         empMap.put(new Employee(1,"Sagar"),1);
         empMap.put(new Employee(1,"Nilesh"),1);
         empMap.put(new Employee(1,"vasant"),1);
         
         System.out.println("empmap:--"+empMap.size());
         
+        HashMap<String,Integer> hmap1=new HashMap<>();
+        System.out.println(hmap1.put("Sagar",1));
+        System.out.println(hmap1.put("Sagar",3));
         
         WeakReference<String> wr=new WeakReference<>(new String("Mahesh"));
         ReferenceQueue<String> queue=new ReferenceQueue<>();
@@ -50,6 +51,8 @@ public class MainClass {
         SoftReference<String> sr=new SoftReference<String>(str1);
         System.gc();
         List<Integer> lst=Arrays.asList(1,2,3,4,5,66,6,6,4,4,5);
+        
+        HashSet<Integer>hset=new HashSet<>();
      /*   System.out.println("list..."+lst.toString());
         
         System.out.println("weak reference.."+wr.get());

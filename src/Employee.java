@@ -1,5 +1,9 @@
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 
-public class Employee {
+public class Employee implements Externalizable {
 	
 	private int id;
 
@@ -18,6 +22,10 @@ public class Employee {
 		this.name = name;
 	}
 	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + "]";
+	}
 	public int getId() {
 		return id;
 	}
@@ -59,6 +67,21 @@ public class Employee {
 		} else if (!name.equals(other.name))
 			return false;
 		return true;
+	}
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		     out.writeInt(getId());
+             out.writeObject(getName());
+             
+		
+	}
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		// TODO Auto-generated method stub 
+		setId(in.readInt());
+		setName((String)in.readObject());
+		
+		
 	}
 	
 	
